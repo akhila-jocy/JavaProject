@@ -1,6 +1,6 @@
 package string;
 
-public class StriingBufferEx {
+public class StringBuffer {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
