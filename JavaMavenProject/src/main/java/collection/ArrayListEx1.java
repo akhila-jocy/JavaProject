@@ -11,7 +11,18 @@ public class ArrayListEx1 {
 		obj.add("welcome");
 		obj.add("java");
 		obj.add("tutorial");
+		
+		ArrayList<String> obj1 =new ArrayList<String>();
+		obj1.add("student");
+		obj1.add("class");
+		System.out.println(obj.addAll(obj1));
+		System.out.println(obj.contains("hello"));
 		System.out.println(obj);
+		System.out.println(obj.get(2));
+		System.out.println(obj.isEmpty());
+		obj.remove(6);
+		System.out.println(obj);
+		System.out.println(obj.size());
 	}
 
 } 

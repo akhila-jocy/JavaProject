@@ -12,5 +12,5 @@ public class NonGenericEx1 {
 		obj1.add(10.2);
 		System.out.println(obj1);
 	}
-
+ 
 }
